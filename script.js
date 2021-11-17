@@ -1,5 +1,4 @@
- // enter your api_key here: 
-const API_key = 'e2c2aca1ab71c45f6e198d5fcedc6dac';
+const API_key = "enter_you_api_key_here";
 const monthNames = ["January", "February", "March", "April", "May", "June",
 "July", "August", "September", "October", "November", "December"];
 let date = new Date();
