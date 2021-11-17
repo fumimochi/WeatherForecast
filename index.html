@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/null.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__search">
+                    <div class="header__form">
+                        <div class="header___form">
+                            <input id="inputCity" type="text" autocomplete="off" placeholder="Start typing to search...">
+                            <button id="search" type="button">
+                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="40" height="40" rx="20" fill="#90CAF9"/>
+                                    <g clip-path="url(#clip0_1637_374)">
+                                    <path d="M27.8045 26.862L23.2545 22.312C24.1359 21.2234 24.6665 19.84 24.6665 18.3334C24.6665 14.8414 21.8252 12.0001 18.3333 12.0001C14.8413 12.0001 12 14.8414 12 18.3334C12 21.8253 14.8413 24.6667 18.3333 24.6667C19.8399 24.6667 21.2233 24.136 22.3119 23.2547L26.8619 27.8046C26.9919 27.9346 27.1625 28 27.3332 28C27.5039 28 27.6745 27.9346 27.8045 27.8046C28.0652 27.544 28.0652 27.1226 27.8045 26.862ZM18.3333 23.3333C15.576 23.3333 13.3333 21.0907 13.3333 18.3334C13.3333 15.5761 15.576 13.3334 18.3333 13.3334C21.0906 13.3334 23.3332 15.5761 23.3332 18.3334C23.3332 21.0907 21.0906 23.3333 18.3333 23.3333Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_1637_374">
+                                    <rect width="16" height="16" fill="white" transform="translate(12 12)"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                    
+                            </button>
+                        </div>
+                    </div>
+                <div class="header__cities">
+                    <ul id="cities"></ul>
+                </div>
+                </div>
+                <div class="header__info table">
+                    <div class="table__content">
+                        <div class="table__topLeft">
+                            <div class="table__icon">
+                                <img src="./img/image 1cloud&sun.png" alt="">
+                            </div>
+                            <div class="table__weather">
+                                <div class="table__celcium ">+23°C</div>
+                                <div class="table__indication">Drizzle</div>
+                                <div class="table__descr">Light intensity drizzle</div>
+                            </div>
+                        </div>
+                        <div class="table__topRight">
+                            <div class="table__location">
+                                <div class="table__city">Odessa, Ukraine</div>
+                                <div class="table__date">10 March 2020</div>
+                            </div>
+                        </div>
+                        <div class="table__bottomLeft">
+                            <div class="table__min">
+                                <div class="table__signMin sign">Min</div>
+                                <div class="table__valueMin value">-33°C</div>
+                            </div>
+                        </div>
+                        <div class="table__bottomRight">
+                            <div class="table__max">
+                                <div class="table__signMax sign">Max</div>
+                                <div class="table__valueMax value">+33°C</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="check">
+        <div class="container">
+            <div class="check__text">
+                Check the weather in&nbsp;most popular cities in&nbsp;the world
+            </div>
+            <div class="check__imageS">
+                <div class="check__NewYork images">
+                    <img id="NewYork" src="./img/NewYork.png" alt="">
+                    <div class="image__textBlock">
+                        <div class="image__text">New York</div>
+                    </div>
+                </div>
+                <div class="check__London images">
+                    <img id="London" src="./img/London.png" alt="">
+                    <div class="image__textBlock">
+                        <div class="image__text">London</div>
+                    </div>
+                </div>
+                <div class="check__Dubai images">
+                    <img id="Dubai" src="./img/Dubai.png" alt="">
+                    <div class="image__textBlock">
+                        <div class="image__text">Dubai</div>
+                    </div>
+                </div>
+                <div class="check__Paris images">
+                    <img id="Paris" src="./img/Paris.png" alt="">
+                    <div class="image__textBlock">
+                        <div class="image__text">Paris</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="container">
+            <div class="question__text">Frequently Asked Questions</div>
+            <div class="question__quest">
+                <div class="question__section">
+                    <div class="question__number">Question 1</div>
+                    <div class="question__arrow">
+                        <img class="arrowTop" src="./img/arrowTop.svg" alt="close question">     
+                    </div>
+                </div>
+                <div class="question__content">
+                    But I&nbsp;must explain to&nbsp;you how all this mistaken idea
+                    of&nbsp;denouncing pleasure and praising pain was born and&nbsp;I will give you a&nbsp;complete
+                    account of&nbsp;the system, and expound the actual teachings of&nbsp;the great explorer
+                    of&nbsp;the truth, the master-builder of&nbsp;human happiness. No&nbsp;one rejects, dislikes,
+                    or&nbsp;avoids pleasure itself, because it&nbsp;is&nbsp;pleasure, but because those who
+                    do&nbsp;not know how to&nbsp;pursue pleasure rationally encounter consequences that are
+                    extremely painful.
+                </div>
+                <div class="question__section">
+                    <div class="question__number">Question 2</div>
+                    <div class="question__arrow">
+                        <img class="arrowTop" src="./img/arrowTop.svg" alt="close question">  
+                    </div>
+                </div>
+                <div class="question__content">
+                    But I&nbsp;must explain to&nbsp;you how all this mistaken idea
+                    of&nbsp;denouncing pleasure and praising pain was born and&nbsp;I will give you a&nbsp;complete
+                    account of&nbsp;the system, and expound the actual teachings of&nbsp;the great explorer
+                    of&nbsp;the truth, the master-builder of&nbsp;human happiness. No&nbsp;one rejects, dislikes,
+                    or&nbsp;avoids pleasure itself, because it&nbsp;is&nbsp;pleasure, but because those who
+                    do&nbsp;not know how to&nbsp;pursue pleasure rationally encounter consequences that are
+                    extremely painful.
+                </div>
+                <div class="question__section">
+                    <div class="question__number">Question 3</div>
+                    <div class="question__arrow">
+                        <img class="arrowTop" src="./img/arrowTop.svg" alt="close question">  
+                    </div>
+                </div>
+                <div class="question__content">
+                    But I&nbsp;must explain to&nbsp;you how all this mistaken idea
+                    of&nbsp;denouncing pleasure and praising pain was born and&nbsp;I will give you a&nbsp;complete
+                    account of&nbsp;the system, and expound the actual teachings of&nbsp;the great explorer
+                    of&nbsp;the truth, the master-builder of&nbsp;human happiness. No&nbsp;one rejects, dislikes,
+                    or&nbsp;avoids pleasure itself, because it&nbsp;is&nbsp;pleasure, but because those who
+                    do&nbsp;not know how to&nbsp;pursue pleasure rationally encounter consequences that are
+                    extremely painful.
+                </div>
+                <div class="question__section">
+                    <div class="question__number">Question 4</div>
+                    <div class="question__arrow">
+                        <img class="arrowTop" src="./img/arrowTop.svg" alt="close question">
+                    </div>
+                </div>
+                <div class="question__content">
+                    But I&nbsp;must explain to&nbsp;you how all this mistaken idea
+                    of&nbsp;denouncing pleasure and praising pain was born and&nbsp;I will give you a&nbsp;complete
+                    account of&nbsp;the system, and expound the actual teachings of&nbsp;the great explorer
+                    of&nbsp;the truth, the master-builder of&nbsp;human happiness. No&nbsp;one rejects, dislikes,
+                    or&nbsp;avoids pleasure itself, because it&nbsp;is&nbsp;pleasure, but because those who
+                    do&nbsp;not know how to&nbsp;pursue pleasure rationally encounter consequences that are
+                    extremely painful.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>Your Name&nbsp;&mdash; 2021</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
